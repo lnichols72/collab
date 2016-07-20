@@ -1,0 +1,277 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f7ec;
+}
+
+header.hero-spacer {
+    background-image: url('../images/hero-bg.gif');
+    background-position: 0 0;
+     background-size: cover;
+    min-height: 575px;
+}
+
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin:0;
+    padding:50px;
+    background-color: #fff;
+}
+
+footer div.lead p {
+    font-size: 15px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
+h1 {color:#ff6c0c;}
+
+.gray {background-color:#eaeaea;}
+
+.thumbnail {
+	background-color:transparent;
+	border:none;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar {margin:20px 0;}
+.navbar li {
+    font-size: 13.5px;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+.btn-default {
+    color: #fff !important;
+    background-color: #ff6633;
+    border-color: #ccc;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 5px 10px !important;
+    margin: 10px;
+    border-radius: 35px;
+}
+
+.row.hero-spacer {
+    background-color: #fff;
+    text-align: center;
+}
+.row {margin-right:0; margin-left: 0}
+.jumbotron {margin-bottom:0;}
+.jumbotron .h1, .jumbotron h1 {
+    font-size: 46px;
+    text-align: center;
+    color: #433f3e;
+}
+
+.jumbotron p {
+    margin: 36px;
+    font-size: 23px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 35px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #f06721;
+    border-color: #f06721;
+    font-weight: 600;
+}
+
+.btn.btn-primary.btn-lg {
+    max-width: 100%;
+    white-space: normal;
+}
+
+div.lead, div.prize, div.email {
+    padding: 90px;
+}
+
+div.lead p {
+    margin-bottom: 56px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #433f3e;
+}
+
+div.lead h2, .h2 {
+    font-size: 23px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.prize p {font-size:15px; padding-bottom:25px;}
+
+.mosaic {padding:0; display:table-cell; float:none;}
+.mosaic img {width: 100%;}
+.mosaic1, .mosaic4, .mosaic5 {padding:75px; text-align: left;color:#fff;}
+.mosaic1 p, .mosaic4 p, .mosaic5 p {font-size:15px; line-height: 24px;}
+.mosaic1 h2, .mosaic4 h2, .mosaic5 h2 {font-size:20px; text-transform: uppercase;}
+.mosaic1 {background-color:#a7b523;}
+.mosaic4 {background-color:#878d8f; padding:74px;}
+.mosaic5 {background-color: #00b3e3; padding:122px 75px;}
+.mosaic2, .mosaic3, .mosaic6 {background-size:cover; background-position: center;}
+.mosaic2{background-image:url('../images/mosaic2.gif');}
+.mosaic3{background-image:url('../images/mosaic3.gif');}
+.mosaic6{background-image:url('../images/mosaic6.gif');}
+
+.timeline {background-color: #878d8f;}
+
+.timeline h2.h2 {
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+.timeline img {
+    display: block;
+    margin-bottom: 65px;
+}
+
+.timeline a.btn.btn-primary.btn-lg {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+div.lead p.reference {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+div.email {background-color: #00b0e1;}
+
+div.email {
+    color: #fff;
+}
+
+.input-group {
+    max-width: 412px;
+    margin: 50px auto;
+}
+
+div.email input.form-control {
+        border-radius: 35px;
+    border: 0;
+    height: 57px;
+    padding: 20px;
+}
+
+div.email span#basic-addon2 {
+        border-radius: 35px;
+    background-color: #fff;
+    position: relative;
+    left: -11px;
+    border:0;
+        border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+@media only screen and (max-width: 767px) {
+    
+   table.table.table-no-more {
+        width: 100%;
+    }
+
+    /* Force table to not be like tables anymore */
+    table.table.table-no-more,
+    table.table.table-no-more thead,
+    table.table.table-no-more tbody,
+    table.table.table-no-more th,
+    table.table.table-no-more td,
+    table.table.table-no-more tr {
+        display: block;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    table.table.table-no-more thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    table.table.table-no-more tr {
+        border: $base-border-style;
+    }
+
+    table.table.table-no-more td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: $base-border-style;
+        position: relative;
+        padding: 0 0 7% 50% !important;
+        white-space: normal !important;
+        text-align:left;
+    }
+
+    table.table.table-no-more td:before {
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: -1px;
+        left: 6px;
+        width: 50%;
+        padding-right: 10px;
+        white-space: normal;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    table.table.table-no-more td.last {border-bottom:1px solid;}
+
+    /*
+    Label the data
+    */
+    table.table.table-no-more td:before { content: attr(data-title); }
+}
+
+.padded {padding:15px 0;}
+.mobile {display:none;}
+.desktop {display:table;}
+
+@media screen and (max-width:767px) {
+    .mosaic {display:block; float:left;}
+    .mobile {display:block;}
+    .desktop {display:none;}
+    .mosaic2{background-image:none;}
+.mosaic3{background-image:none;}
+.mosaic6{background-image:none;}
+}
+@media screen and (min-width: 768px) {
+    .navbar-header {
+    margin-left: 75px !important;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    padding-top: 120px;
+}
+}
+
+@media screen and (max-width:800px) {
+    div.lead, div.prize, div.email, .mosaic1, .mosaic4, .mosaic5 {
+    padding: 20px;
+}
+img {max-width: 100%; height:auto;}
+}
