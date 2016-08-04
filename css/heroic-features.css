@@ -112,7 +112,7 @@ h1 {color:#ff6c0c;}
 }
 
 div.lead, div.prize, div.email {
-    padding: 90px;
+    padding: 45px 90px 0;
 }
 
 div.lead p {
