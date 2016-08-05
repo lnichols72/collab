@@ -194,6 +194,12 @@ div.email span#basic-addon2 {
     border-bottom-left-radius: 0;
 }
 
+div.response {
+    font-weight: 800;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 767px) {
     
    table.table.table-no-more {
@@ -272,6 +278,7 @@ div.email span#basic-addon2 {
 .jumbotron .h1, .jumbotron h1 {
     padding-top: 60px;
 }
+.padded {min-height:700px}
 }
 
 @media screen and (max-width:800px) {
@@ -280,5 +287,7 @@ div.email span#basic-addon2 {
 }
 img {max-width: 100%; height:auto;}
 }
+
+
 
 .hide {display:none;}
