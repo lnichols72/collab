@@ -14,7 +14,7 @@ header.hero-spacer {
     background-image: url('../images/hero-bg.gif');
     background-position: 0 0;
      background-size: cover;
-    min-height: 575px;
+    min-height: 400px;
 }
 
 
@@ -143,7 +143,7 @@ div.lead h2, .h2 {
 .mosaic3{background-image:url('../images/mosaic3.gif');}
 .mosaic6{background-image:url('../images/mosaic6a.gif');}
 
-.timeline {background-color: #878d8f;}
+.timeline {background-color: #878d8f; margin-bottom:0;}
 
 .timeline h2.h2 {
     color: #fff;
@@ -270,7 +270,7 @@ div.email span#basic-addon2 {
 }
 
 .jumbotron .h1, .jumbotron h1 {
-    padding-top: 120px;
+    padding-top: 60px;
 }
 }
 
@@ -280,3 +280,5 @@ div.email span#basic-addon2 {
 }
 img {max-width: 100%; height:auto;}
 }
+
+.hide {display:none;}
