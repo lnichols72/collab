@@ -11,7 +11,8 @@ body {
 }
 
 header.hero-spacer {
-    background-image: url('../images/hero-bg.gif');
+    /*background-image: url('../images/hero-bg.gif');*/
+    background-color:#00b3e3;
     background-position: 0 0;
      background-size: cover;
     min-height: 400px;
