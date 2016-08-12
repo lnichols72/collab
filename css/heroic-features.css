@@ -279,7 +279,7 @@ div.response {
 .jumbotron .h1, .jumbotron h1 {
     padding-top: 60px;
 }
-.padded {min-height:700px}
+.padded {min-height:700px; padding:20px 90px !important;}
 }
 
 @media screen and (max-width:800px) {
